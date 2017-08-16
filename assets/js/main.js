@@ -24,11 +24,17 @@ var section = document.getElementById('pictures');
   xbutton.textContent= "X";
   xbutton.setAttribute('class', 'xBtn');
 
-  xbutton.addEventListener("onclick", "borrar(this)");
+  xbutton.setAttribute("onclick", "borrar(this)");
 }
-
+/*
+$(document).ready(function(){
+    $(".xBtn").click(function(){
+        $(".foto").toggle();
+    });
+});
+*/
 function borrar(){
-    galeria.removeChild(galeria.childNodes[0]);  
+    xbutton.parentNode.style.display=none;
 }
 
     

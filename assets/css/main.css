@@ -1,13 +1,27 @@
 
+/**{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}*/
 @import url('https://fonts.googleapis.com/css?family=Baloo+Bhaijaan|Bungee+Inline|Chewy|Leckerli+One|Lemon|Lily+Script+One|Titan+One');
-header{
+.header{
     background: #EA74BE;
+    margin-top: 0px;
+    border-top: 0px;
+    padding-top: 0px;
+    
 }
 h1{
 text-align: center; 
 font-family: 'Leckerli One', cursive;
 font-size:50px;
-background-color: #e6dce5;
+background-color: #c7f5e7;
+border-top: 0px;
+margin-top: 0px;
+    
+
+    
 }
 h2{
     text-align: center;
@@ -17,6 +31,8 @@ h2{
 }
 body{
     background: #ff7673;
+    width: 100%;
+    margin-top: 0px;
 }
 
 
@@ -26,10 +42,15 @@ ul{
     padding: 0;
     overflow: hidden;
     background-color: #d4d8d1;
-  
+}
+letras{
+    font-size: 20px;
+    width: 20%;
 }
 .ul2{
   background-color: #ff7673;
+ text-align: center;
+    margin-bottom: 30px;
 }
 li{
   float: left;  
@@ -54,7 +75,7 @@ li a:hover:not(.active){
 
 #pictures{
     background: #ff7673;
-    padding: 60px 0;
+    padding: 30px 0;
     text-align: center;
     
 
@@ -66,10 +87,11 @@ li a:hover:not(.active){
     border: 5px solid #dbd1d1;
     margin: 15px;
     display: inline-block;
+    width: 90%;
     
 }
 .xBtn{
-    margin: 18px -170px;
+    margin: -200px -80px;
    	z-index: 1000;
 	position: absolute;
 
@@ -92,8 +114,6 @@ letter-spacing: 1px;
 font-size: 16px;
 padding: 1em 1.5em;
 transition: .5s ease all;
-/*margin: 2em auto;*/
-/*border: none;*/
 width: 70%;
 border-radius: 10px;
 margin: 0 auto;
@@ -108,12 +128,13 @@ width: 30%;
 display: inline-block;
 }
 #textos {
-margin: 20px;
-overflow: hidden;
-width: 39%;
+/*margin: 0 auto;
+overflow: hidden;*/
+width: 90%;
 display:inline-block;
-padding: 2em;
-transition: .5s ease all
+    margin-left: 60px;
+
+/*transition: .5s ease all*/
 }
 /*#textos .caja {
 width: 39%;
@@ -121,27 +142,24 @@ display: block;
 padding: 2em;
 transition: .5s ease all;
 }*/
-div#caja_izq{
-    display: inline-block;
-}
 
-div#caja_der{
-    display: inline-block;
-}
 
-#textos .caja.izq {
-overflow: hidden;
+.caja.izq {
+width: 45%;
 float: left;
-clear: left;
 background-color:#facbe2;
-margin: 10px 10px 10px 100px;
+padding: 10px;
+margin: 2px;
+
 
 }
-#textos .caja.der {
-float: right;
-clear: right;
+.caja.der {
+width: 45%;
+float: right;   
 background-color:#facbe2;
-margin: 10px 100px 10px 10px;
+padding: 10px;
+    margin: 2px;
+
 
 }
 .hidden {
